@@ -1,0 +1,19 @@
+# Reference checksum inventory. The named artifacts are not stored in Git.
+# Historical identities from the June 2026 manifest:
+38c38390ca9a474b4d29d24fb25ad9139bb58e2ad9cd88b5b601abad2f8c2d5e  historical/kernel-4.19.325-r8
+56fd50b75ff4d17c808665b3980e5dcd6b1800e9361b3bd0276fc70be31c13fb  historical/xiaomi-lmi-userdata.img
+6aee3809e2644438591f17de54d6e2c88349082239c272fb8da0f34840331cdc  historical/boot.img
+aee89cc172734de955a11ec335b16d3a1b5da51667083b919271c2b6902d57a6  historical/lmi.dtb
+
+# Frozen September 2026 inputs:
+888899d267302a70684251f53e2248e469c627eab73a7320c4ff30f6d1cb0afc  september-inputs/postmarketos-initramfs-3.12.0-r1.apk
+dee65e97c8d56230c9507241d0a338a788bea3f804728134c45d8edb4dffc490  september-inputs/device-xiaomi-lmi-1-r104.apk
+b73209a895a826fcce058c95e9d1bff9a9ccb1f696b93f1c77eae6469201173f  september-inputs/linux-xiaomi-lmi-4.19.325-r8.apk
+2a36086d2fd988ad16cbd62fc1dbb08907fc18dbe8741fd2a70d74066b821409  september-inputs/pmbootstrap_v3.cfg.before-init
+f3dd2436f440bdca823c4efcde8ceeb25c332c5884393419af940da66a2be656  september-inputs/pmbootstrap_v3.cfg.after-init
+
+# September 2026 reconstructed outputs:
+7e91267713551eeec7c1790d0a100358e23b6554753d67a5df075502a69a401c  september-outputs/xiaomi-lmi.img
+ecaa289c82840ae049ff846a5216937ffc68bd6d73b9c273dc11477c99be0075  september-outputs/boot.img
+47839a2bac46d3513e3b0509fe982657d93762247ecfbdc1e0386837caf1af57  september-outputs/vmlinuz
+38a522a2285ca1f58a0d26986d355378fbea546a2e97e3a8b41e6b862d234ded  september-outputs/initramfs
