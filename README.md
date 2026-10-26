@@ -1,5 +1,16 @@
 # Xiaomi lmi / P1 reconstruction
 
+> [!IMPORTANT]
+> **Historical archive — active development has moved.**
+>
+> Continue with [xiaomi-lmi-linux-port](https://github.com/electropica/xiaomi-lmi-linux-port).
+> Experimental Linux7 work is isolated on its
+> [`lmi-linux7` branch](https://github.com/electropica/xiaomi-lmi-linux-port/tree/lmi-linux7).
+>
+> This repository preserves the earlier P1/postmarketOS reconstruction history.
+> The status and procedures below describe historical milestones; use the
+> maintained repository for current build, installation and hardware status.
+
 This repository records evidence and reproducible procedures for the Xiaomi
 `lmi` P1 reconstruction effort. It deliberately contains no APK, boot image,
 root filesystem image, private signing key, password, or phone-derived secret.
